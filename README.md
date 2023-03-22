@@ -1,4 +1,4 @@
-# Basic Falsk application
+# Basic Flask application
 
 This is a basic flask application that runs with docker. To run the application, go to the root directory of the project and use the following commands :
 
