@@ -7,7 +7,7 @@ docker build -t basic-flask-application .
 docker run -p 8080:8080 basic-flask-application
 ```
 
-Next, onpen you browser and navigate to [http://localhost:8080/](http://localhost:8080/), and you should see the output of your application. 
+Next, open your browser and navigate to [http://localhost:8080/](http://localhost:8080/), and you should see the output of your application. 
 
 ![Flask Hello World Application](https://i.imgur.com/LJFRJU8.png)
 
