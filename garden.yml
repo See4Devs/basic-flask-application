@@ -1,0 +1,11 @@
+kind: Module
+type: container
+name: basic-flask-application
+services:
+  - name: basic-flask-application
+    ports:
+      - name: http
+        containerPort: 8080
+    ingresses:
+      - path: /
+        port: http
