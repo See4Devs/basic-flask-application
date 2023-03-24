@@ -1,0 +1,6 @@
+kind: Project
+name: basic-flask-application
+environments:
+  - name: default
+providers:
+  - name: local-kubernetes

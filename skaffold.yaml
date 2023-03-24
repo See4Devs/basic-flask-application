@@ -1,0 +1,14 @@
+apiVersion: skaffold/v2beta16
+kind: Config
+metadata:
+  name: basic-flask-application
+build:
+  artifacts:
+  - image: basic-flask-application
+    context: .
+    docker:
+      dockerfile: Dockerfile
+deploy:
+  kubectl:
+    manifests:
+    - deployment.yaml
